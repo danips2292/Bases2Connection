@@ -1,6 +1,10 @@
 class JugadoreController < ApplicationController
   def index
-    @search_information = []
+    Jugadore.all
+    @search_information
+    @postgres_information
+    @sqlite_information
+    @mysql_information
   end
 
   def search
