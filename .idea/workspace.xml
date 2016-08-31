@@ -93,17 +93,19 @@
         <option value="$PROJECT_DIR$/app/controllers/data_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/data/index.html" />
         <option value="$PROJECT_DIR$/app/views/jugadore/index.rhtml" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/views/jugadore/index.html" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/jugadore/_info_details.js.erb" />
         <option value="$PROJECT_DIR$/app/views/jugadore/_info_details.html.erb" />
         <option value="$PROJECT_DIR$/app/views/jugadore/jugadore.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/jugadore.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/jugadore/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/jugadore/search.html.erb" />
         <option value="$PROJECT_DIR$/app/views/jugadore/_jugadore.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/jugadore/index.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/models/jugadore.rb" />
+        <option value="$PROJECT_DIR$/app/models/jugador_sqlite3.rb" />
         <option value="$PROJECT_DIR$/app/controllers/jugadore_controller.rb" />
       </list>
     </option>
