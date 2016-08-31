@@ -14,11 +14,11 @@
 ActiveRecord::Schema.define(version: 20160826063346) do
 
   create_table "jugadores", force: :cascade do |t|
-    t.string   "name"
-    t.integer  "ahno"
-    t.string   "last_name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "name",       limit: 255
+    t.integer  "ahno",       limit: 4
+    t.string   "last_name",  limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
 end

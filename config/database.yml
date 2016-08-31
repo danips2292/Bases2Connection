@@ -41,3 +41,12 @@ sqlite3_dev:
   database: db/development.sqlite3
   pool: 5
   timeout: 5000
+
+mysql_dev:
+  adapter: mysql2
+  encoding: utf8
+  database: mybases_dev
+  pool: 5
+  username: root
+  password: 123456
+  timeout: 5000

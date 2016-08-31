@@ -12,10 +12,12 @@ class JugadoreController < ApplicationController
     #   @search_information = SQL.all
     # end
     case @search_information # a_variable is the variable we want to compare
-      when "Jugadore"    #compare to 1
+      when "Postgres"    #compare to 1
         @search_information = Jugadore.all
-      when "JugadorSqlite3"    #compare to 2
+      when "Sqlite3"    #compare to 2
         @search_information = JugadorSqlite3.all
+      when "Mysql"
+        @search_information = JugadorMysql.all
       else
         puts "it was something else"
     end
