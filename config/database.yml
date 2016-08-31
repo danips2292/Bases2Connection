@@ -7,6 +7,25 @@
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
+#postgres_dev:
+#  development:
+#    adapter: postgresql
+#    database: bases_dev
+#    host: localhost
+#    username: postgres
+#    encoding: unicode
+#    pool: 5
+#    password: postgres
+#
+#sqlite_dev:
+#  # sqlite3 configuration
+#  development:
+#    adapter: sqlite3
+#    database: db/development.sqlite3
+#    pool: 5
+#    timeout: 5000
+
+
 development:
   adapter: postgresql
   database: bases_dev
@@ -16,3 +35,9 @@ development:
   pool: 5
   password: postgres
 
+sqlite3_dev:
+  # sqlite3 configuration
+  adapter: sqlite3
+  database: db/development.sqlite3
+  pool: 5
+  timeout: 5000
